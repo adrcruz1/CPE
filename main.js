@@ -56,3 +56,19 @@ function atualizarRelogio() {
 
              }
         }
+         function registrar(){
+
+            var ra=parseInt(document.getElementById('ra_1').value);
+           const agora = new Date()
+           const datastring=agora.toLocaleString();
+             if(ra==25052025)
+                {
+             alert('************************REGISTRO DE ATRASO***********************\n\n Prezado (a) Bezerra da Silva, fique atento ao horario de entrada.\n Data de hora de registro: '+datastring+' \n\nPrezado (a) Bezerra da Silva, os pais ou responsaveis não serão comunicados, trata-se de um teste demo dos alunos da UNIVESP ');
+
+             }
+             else
+             {
+                alert('Verifique o RA digitado');
+
+             }
+        }

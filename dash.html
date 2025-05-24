@@ -32,8 +32,8 @@
         }
 
         .filter-section {
-            margin-bottom: 20px;
-            text-align: center;
+            margin-bottom: 2px;
+            text-align: left;
         }
 
         #filterInput {
@@ -120,7 +120,8 @@
             }
             
             #filterInput {
-                width: 100%;
+               
+                position: absolute;
             }
         }
     </style>
@@ -130,7 +131,13 @@
         <div class="header">
             <h1>Controle de Atrasos dos Alunos</h1>
             <div class="filter-section">
-                <input type="text" id="filterInput" placeholder="Filtrar por nome do aluno...">
+                <br>
+            <select name="nmnm" id="filterInput">
+                <option value="valor2" selected>Selecione o Aluno</option> 
+                <option value="valor1">Maria Oliveira</option>
+                 <option value="valor3">João Silva</option>
+                 <option value="valor4"> Carlos Joao</option>
+            </select>                
             </div>
         </div>
 
